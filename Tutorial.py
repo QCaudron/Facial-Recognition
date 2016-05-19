@@ -6,6 +6,8 @@
 
 
 # CNN examples : https://github.com/fchollet/keras/tree/master/examples
+# CNN visualization : http://cs231n.github.io/understanding-cnn/
+
 import os
 import numpy as np
 import pandas as pd
