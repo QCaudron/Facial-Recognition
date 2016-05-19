@@ -13,9 +13,6 @@ from keras import layers
 from keras.models import Sequential
 from matplotlib import pyplot
 
-#from keras.preprocessing.image import ImageDataGenerator # keras documentation : https://github.com/fchollet/keras/blob/master/keras/preprocessing/image.py
-# Example of real time data augmentation : https://github.com/fchollet/keras/blob/master/examples/cifar10_cnn.py
-
 from keras.preprocessing.image import ImageDataGenerator, flip_axis
 from keras.callbacks import EarlyStopping
 from keras.models import Sequential
