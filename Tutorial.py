@@ -6,7 +6,8 @@
 
 
 # CNN examples : https://github.com/fchollet/keras/tree/master/examples
-# CNN visualization : http://cs231n.github.io/understanding-cnn/
+# CNN visualization : http://cs231n.github.io/understanding-cnn
+# http://scs.ryerson.ca/~aharley/vis/conv/
 
 import os
 import numpy as np
