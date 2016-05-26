@@ -4,15 +4,14 @@ Documentation for this class : https://github.com/fchollet/keras/blob/master/ker
 
 """
 
-
 from keras.preprocessing.image import *
 import numpy as np
 
 class CustomImageProcess(ImageDataGenerator):
     
     def __init__(self, flip_indices, horizontal_flip):
-        ImageDataGenerator.__init__(self, horizontal_flip)
-        self.flip_indices = flip_indices    
+        ImageDataGenerator.__init__(self, horizontal_flip = horizontal_flip, featurewise_center = False, featurewise_std_normalization = False)
+        self.flip_indices = flip_indices
     
     def next(self):
         # for python 2.x.
